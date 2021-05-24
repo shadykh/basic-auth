@@ -103,16 +103,19 @@ We have deployed a web application that's designed to test your API. This is a g
 
   - For the repo ***basic-auth*** clicks => [here](https://github.com/shadykh/basic-auth).
   - Pull Requests:
-    - [https://github.com/shadykh/basic-auth/pull/2](https://github.com/shadykh/api-server/pull/2)
+    - [https://github.com/shadykh/basic-auth/pull/2](https://github.com/shadykh/basic-auth/pull/2)
     - [https://github.com/shadykh/basic-auth/pull/3](https://github.com/shadykh/basic-auth/pull/3)
   - Actions:
-    - [https://github.com/shadykh/api-server/runs/2624684883?check_suite_focus=true](https://github.com/shadykh/api-server/runs/2624684883?check_suite_focus=true)
-    - [https://github.com/shadykh/api-server/runs/2624686443?check_suite_focus=true](https://github.com/shadykh/api-server/runs/2624686443?check_suite_focus=true)
-    - [https://github.com/shadykh/api-server/runs/2624686951?check_suite_focus=true](https://github.com/shadykh/api-server/runs/2624686951?check_suite_focus=true)
+    - [https://github.com/shadykh/basic-auth/runs/2652012601?check_suite_focus=true](https://github.com/shadykh/basic-auth/runs/2652012601?check_suite_focus=true)
+    - [https://github.com/shadykh/basic-auth/runs/2652014216?check_suite_focus=true](https://github.com/shadykh/basic-auth/runs/2652014216?check_suite_focus=true)
+    - [https://github.com/shadykh/basic-auth/runs/2652014428?check_suite_focus=true](https://github.com/shadykh/basic-auth/runs/2652014428?check_suite_focus=true)
   - Local Tests:
     - ![Local Test Image](https://raw.githubusercontent.com/shadykh/basic-auth/main/assets/localTest.PNG)
   - GitHub Tests:
     - ![github tests](https://raw.githubusercontent.com/shadykh/basic-auth/main/assets/githubtests.PNG)
+  - Postman Tests:
+    - ![postmanTestSignUp](https://raw.githubusercontent.com/shadykh/basic-auth/main/assets/postmanTestSignUp.PNG)
+    - ![postmanTestSignIn](https://raw.githubusercontent.com/shadykh/basic-auth/main/assets/postmanTestSignIn.PNG)
 
 - #### Heroku
 
@@ -185,23 +188,19 @@ We have deployed a web application that's designed to test your API. This is a g
 
 #### Notes
 
-- SQL vs NoSQL:
-  - SQL databases are primarily called as Relational Databases (RDBMS); whereas NoSQL database are primarily called as non-relational or distributed database.
-  - SQL databases have predefined schema whereas NoSQL databases have dynamic schema for unstructured data.
-    - > for further information clicks => [here](https://www.thegeekstuff.com/2014/01/sql-vs-nosql-db/?utm_source=tuicool)
-- Data Model:
-  - A data model (or datamodel) is an abstract model that organizes elements of data and standardizes how they relate to one another and to the properties of real-world entities. For instance, a data model may specify that the data element representing a car be composed of a number of other elements which, in turn, represent the color and size of the car and define its owner.
-    - > for further information clicks => [here](https://en.wikipedia.org/wiki/Data_model#:~:text=A%20data%20model%20(or%20datamodel,properties%20of%20real%2Dworld%20entities.))
-- REST:
-  - Representational state transfer (REST) is a software architectural style which uses a subset of HTTP. It is commonly used to create interactive applications that use Web services. A Web service that follows these guidelines is called RESTful. Such a Web service must provide its Web resources in a textual representation and allow them to be read and modified with a stateless protocol and a predefined set of operations.
-    - > for further information clicks => [here](https://en.wikipedia.org/wiki/Representational_state_transfer)
-- Mongoose:
-  - Mongoose is an Object Data Modeling (ODM) library for MongoDB and Node.js. It manages relationships between data, provides schema validation, and is used to translate between objects in code and the representation of those objects in MongoDB.
-    - > for further information clicks => [here](https://www.freecodecamp.org/news/introduction-to-mongoose-for-mongodb-d2a7aa593c57/)
 
-- Connection string:
-  - In computing, a connection string is a string that specifies information about a data source and the means of connecting to it. It is passed in code to an underlying driver or provider in order to initiate the connection. Whilst commonly used for a database connection, the data source could also be a spreadsheet or text file.
-    - > for further information clicks => [here](https://en.wikipedia.org/wiki/Connection_string)
+- Securing Passwords
+    - Passwords are the first line of defense against cyber criminals. It is the most vital secret of every activity we do over the internet and also a final check to get into any of your user account, whether it is your bank account, email account, shopping cart account or any other account you have.
+    - Cryptographic hash algorithms MD5, SHA1, SHA256, SHA512, SHA-3 are general purpose hash functions, designed to calculate a digest of huge amounts of data in as short a time as possible. Hashing is the greatest way for protecting passwords and considered to be pretty safe for ensuring the integrity of data or password.
+    - > For further information clicks =>[here](https://thehackernews.com/2014/04/securing-passwords-with-bcrypt-hashing.html) 
+- Basic Auth
+    - In the context of an HTTP transaction, basic access authentication is a method for an HTTP user agent (e.g. a web browser) to provide a user name and password when making a request. In basic HTTP authentication, a request contains a header field in the form of `Authorization: Basic <credentials>`, where credentials is the Base64 encoding of ID and password joined by a single colon :.
+    - > For further information clicks =>[here](https://en.wikipedia.org/wiki/Basic_access_authentication) 
+- OWASP auth cheatsheet
+    - **Authentication** is the process of verifying that an individual, entity or website is whom it claims to be. Authentication in the context of web applications is commonly performed by submitting a username or ID and one or more items of private information that only a given user should know.
+    - **Session Management** is a process by which a server maintains the state of an entity interacting with it. This is required for a server to remember how to react to subsequent requests throughout a transaction. Sessions are maintained on the server by a session identifier which can be passed back and forward between the client and server when transmitting and receiving requests.
+    - > For further information clicks =>[here](https://cheatsheetseries.owasp.org/cheatsheets/Authentication_Cheat_Sheet.html)
+
 <br>
 
 ---
