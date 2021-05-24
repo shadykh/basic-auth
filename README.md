@@ -116,7 +116,7 @@ We have deployed a web application that's designed to test your API. This is a g
 
 - #### Heroku
 
-  - For the link of the ***deployment main branch => `/` <= route***  clicks => [here](https://shady-api-server.herokuapp.com/api/favorite/games).
+  - For the link of the ***deployment main branch => `/` <= route***  clicks => [here](https://shady-basic-auth.herokuapp.com/).
 
 - #### Endpoints
 
@@ -148,7 +148,7 @@ We have deployed a web application that's designed to test your API. This is a g
 
 - #### UML
 
-  - ![UML](https://raw.githubusercontent.com/shadykh/api-server/main/assets/UML.PNG)
+  - ![UML](https://raw.githubusercontent.com/shadykh/basic-auth/main/assets/UML.PNG)
 
 - #### Tests
 
@@ -158,7 +158,7 @@ We have deployed a web application that's designed to test your API. This is a g
 - #### App
 
   - run `npm start` or `nodmon`
-  - visit Herokue depolyed app [here](https://shady-api-server.herokuapp.com/api/favorite/games)
+  - visit Herokue depolyed app [here](https://shady-basic-auth.herokuapp.com/)
 
 - I did this lab with help of
   - dependencies
