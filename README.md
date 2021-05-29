@@ -116,7 +116,8 @@ We have deployed a web application that's designed to test your API. This is a g
   - Postman Tests:
     - ![postmanTestSignUp](https://raw.githubusercontent.com/shadykh/basic-auth/main/assets/postmanTestSignUp.PNG)
     - ![postmanTestSignIn](https://raw.githubusercontent.com/shadykh/basic-auth/main/assets/postmanTestSignIn.PNG)
-
+  - Added Form Data handler:
+    - ![FormData](https://raw.githubusercontent.com/shadykh/basic-auth/main/assets/FormData.PNG)
 - #### Heroku
 
   - For the link of the ***deployment main branch => `/` <= route***  clicks => [here](https://shady-basic-auth.herokuapp.com/).
