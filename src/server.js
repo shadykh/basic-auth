@@ -11,9 +11,13 @@ const cors = require('cors');
 
 const morgan = require('morgan');
 
-const routesHandler = require('./auth/router.js')
+const routesHandler = require('./auth/router.js');
 
+const multer = require('multer');
 
+const multParse = multer();
+
+//const bodyParser =  require('body-parser');
 
 
 /**
@@ -41,11 +45,12 @@ const app = express();
 app.use(express.json());
 
 
-
 /**
  * Process FORM input and put the data on req.body
  * -------------------------------------------------
  */
+
+app.use(multParse.none()); 
 
 app.use(express.urlencoded({ extended: true }));
 
